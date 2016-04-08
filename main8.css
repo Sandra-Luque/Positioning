@@ -1,0 +1,78 @@
+/* Inserta tu CSS aqui */
+
+/* Inserta tu CSS aqui */
+
+/*========================================================
+nav
+========================================================
+*/
+nav{
+	padding:0px;
+    margin: 15px;
+    width: 70%;
+}
+nav ul{
+	list-style: none;
+	margin: 0 10px 0 10px;
+	padding: 0;
+}
+nav ul li{
+	float: left;
+	text-align: center;
+}
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear:both;
+}
+nav ul li a{
+	font-family:Arial;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 10px;
+	background-color: #000;
+	color: #fff;
+}
+
+nav ul li a:hover{
+	background-color: #2E9AFE;
+	color:#000;
+	margin-top: -2px;
+	padding-bottom: 12px;
+}
+
+
+/*========================================================
+practica1
+========================================================
+*/
+*, body{
+	margin: 0;
+	padding: 0;
+}
+.padre{
+	height: 200px;
+ 	width: 200px;
+ 	margin: 70px auto;
+ 	padding: 100px;
+	background-color: #0B2CFF;
+	position: relative;
+}
+.hijo{
+	height: 100%;
+	width: 100%;
+	background-color: #16880C;
+	position: static;
+}
+.nieto{
+	height: 100px;
+	width: 100px;
+	background-color: #000;
+	position: absolute;
+	top:0;
+	left: 0;
+
+}
+
